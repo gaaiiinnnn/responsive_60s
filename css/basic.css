@@ -1,0 +1,328 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration:none;
+}
+img {
+    vertical-align:middle;
+    max-width:100%;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.row {
+    margin-right:0;
+    margin-left:0;
+}
+
+.row>* {
+    padding-right:0;
+    padding-left:0;
+}
+
+header {
+    background:url('../img/main1_index_showroom-dosan.jpg') no-repeat center center / cover;
+    padding:180px 0;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar {
+    background-color:#f5f2eb;
+}
+.h_logo {
+    width:90px;
+}
+.h_logo span {
+    display:inline-block;
+    text-indent:-9999px;
+}
+.shop {
+    font-size:14px;
+}
+.story {
+    font-size:15px;
+}
+
+.h_cont {
+    margin-left:10vw;
+}
+.h_cont p {
+    font-size:14px;
+}
+.h_cont button span {
+    font-size:14px;
+}
+.h_cont button:hover span, .h_cont button:focus span {
+    color:#fff;
+}
+.login {
+    font-size:14px;
+}
+.login:hover span, .login:focus span {
+    color:#fff;
+}
+
+
+section {
+    margin-top:100px;
+}
+
+
+.news1 {
+    padding:50px 0;
+    background:url('../img/index_benefit-yoonhyun.jpg') no-repeat center center / 95%;
+}
+.news2 {
+    padding:50px 0;
+    background:url('../img/index_benefit-cremewool.jpg') no-repeat center center / 95%;
+}
+.news3 {
+    padding:50px 0;
+    background:url('../img/index_benefit-re60.jpg') no-repeat center center / 95%;
+}
+.more {
+    font-size:13px;
+}
+.more:hover span, .more:focus span {
+    color:#212529;
+}
+
+.title {
+    font-family: 'Kanit', sans-serif;
+}
+.map, .reservation {
+    display:inline-block;
+}
+.map a , .reservation a {
+    color:inherit;
+}
+
+.section4, .section6 {
+    background:#f5f2eb;
+}
+.review button span {
+    font-size:14px;
+}
+.review button:hover span, .h_cont button:focus span {
+    color:#fff;
+}
+.review button span {
+    font-size:14px;
+}
+
+.guide_cont {
+    font-size:15px;
+}
+.guide a img {
+    width:95%;
+}
+
+
+.notice_list > li {
+    padding:16px 0 16px 20px;
+}
+.notice_list > li > a {
+    color:inherit;
+}
+.notice_list > li > span {
+    font-family: 'Kanit', sans-serif;
+}
+.accordion-body {
+    width:95%;
+}
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 var(--bs-accordion-border-color);
+}
+.accordion {
+    --bs-accordion-color: #000;
+    --bs-accordion-bg:rgba(255,255,255,0.3);
+    --bs-accordion-border-color: var(--bs-border-color);
+    --bs-accordion-border-width: 1px;
+    --bs-accordion-btn-padding-x: 20px;
+    --bs-accordion-btn-padding-y: 16px;
+    --bs-accordion-btn-color: var(--bs-body-color);
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon-width: 1rem;
+    --bs-accordion-btn-focus-border-color: #f3ead4;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(124, 100, 38, 0.25);
+    --bs-accordion-body-padding-x: 20px;
+    --bs-accordion-body-padding-y: 16px;
+    --bs-accordion-active-color: #000;
+    --bs-accordion-active-bg: #e4e0d7;
+    --bs-accordion-border-radius: 0;
+    --bs-accordion-inner-border-radius:0;
+}
+.accordion-body {
+    font-size:14px;
+}
+.accordion-body > ul > li {
+    list-style:circle;
+}
+.benefit_n {
+    font-size:14px;
+}
+
+
+
+
+footer {
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.f_menu a {
+    color:inherit;
+}
+
+.address p {
+    font-size:14px; 
+}
+.address p:last-child a {
+    color:inherit;
+}
+footer .cs {
+    font-size:14px; 
+}
+footer .cs p {
+    font-size:13px; 
+}
+
+
+
+
+
+/* 1440px 이상 */
+@media (min-width:1440px){
+    header h2 {
+        font-size:50px;
+    }
+    header h4 {
+        font-size:18px;
+    }
+}
+
+
+
+
+/* 1320px 이상 (xxl) */
+@media (min-width:1320px){
+    .marginL {
+        width:800px;
+        float:right;
+    }
+}
+
+
+
+
+
+/* 1200px 이상 (xl) */
+@media (min-width:1200px){}
+
+
+
+
+
+
+/* 992px 이상 (lg) */
+@media (min-width:992px){
+    .marginL {
+        width:600px;
+        float:right;
+    }
+}
+
+
+
+
+@media (max-width:1040px){
+    .address p {
+        font-size:13px; 
+    }
+    footer .cs {
+        font-size:13px; 
+    }
+    footer .cs p {
+        font-size:12px; 
+    }
+}
+
+
+
+
+
+/* 992px 미만 */
+@media (max-width:991px){
+    header {
+        padding:120px 0 50px;
+    }
+    header h2 {
+        font-size:34px;
+    }
+    header h4 {
+        font-size:14px;
+    }
+    header button {
+        transform:scale(0.7);
+    }
+    header img {
+        width:40px;
+    }
+    header .hText {
+        font-size:14px;
+    }
+
+    section {
+        padding:40px 0;
+    }
+    section h2 {
+        font-size:24px;
+    }
+}
+
+
+
+
+@media (max-width:986px){
+    .section2 {
+        border-bottom:1px solid #DEE2E6;
+    }
+    .section3 {
+        margin-top:0;
+    }
+}
+
+
+
+
+@media (max-width:765px){
+}
+
+
+
+
+
+@media (max-width:700px){
+    section {
+        margin-top:50px;
+    }
+    section p {
+        font-size:14px;
+    }
+    .accordion-body, .benefit_n {
+        font-size:13px;
+    }
+}
