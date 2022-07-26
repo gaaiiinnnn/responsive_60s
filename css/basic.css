@@ -57,6 +57,10 @@ header {
 .h_cont {
     margin-left:10vw;
 }
+.h_cont h2 {
+    font-size:27px;
+    font-weight:700;
+}
 .h_cont p {
     font-size:14px;
 }
@@ -315,7 +319,10 @@ footer .cs p {
 
 
 
-@media (max-width:765px){
+@media (max-width:760px){
+    .h_cont h2 {
+        font-size:20px;
+    }
 }
 
 
